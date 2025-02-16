@@ -5,9 +5,8 @@
   "scripts": {
   "build": "tsc",
   "test": "jest",
-  "lint": "eslint . --ext .ts --fix"
+  "lint": "eslint 'src/**/*.ts' --fix"
 }
-
 ,
   "keywords": [],
   "author": "",
